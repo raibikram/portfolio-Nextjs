@@ -10,6 +10,7 @@ import {
   ExternalLink,
   Folder,
 } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
@@ -196,7 +197,7 @@ export default function Portfolio() {
         </div>
 
         <p className="text-gray-300 max-w-2xl mb-12 leading-relaxed text-sm md:text-base">
-          I'm a software engineer from Toronto, Canada. I'm fascinated by
+          I&apos;m a software engineer from Toronto, Canada. I&apos;m fascinated by
           large-scale, high-impact products and contributed to major feature
           launches in industry-leading services as well as apps that have 100M+
           installs.
@@ -228,7 +229,7 @@ export default function Portfolio() {
                 I am currently a Software Developer at{" "}
                 <span className="text-teal-400">Nakshtra Techno Hub</span>,
                 working in the AWS sector under team Route 53. At the same time,
-                I am undertaking a part-time Master's of Science in Software
+                I am undertaking a part-time Master&apos;s of Science in Software
                 Engineering at{" "}
                 <span className="text-teal-400">University of Oxford</span>.
               </p>
@@ -282,17 +283,19 @@ export default function Portfolio() {
               </div>
 
               <p className="text-gray-300 leading-relaxed">
-                Outside of work, I'm interested in following the developments of
+                Outside of work, I&apos;m interested in following the developments of
                 science. I also play a lot of video games. And make TikToks.
               </p>
             </div>
 
             <div className="flex justify-center">
               <div className="w-64 h-80 bg-gradient-to-br from-teal-400/20 to-slate-700/20 rounded-lg overflow-hidden">
-                <img
+                <Image
                   src="/placeholder.svg?height=320&width=256"
                   alt="Profile"
                   className="w-full h-full object-cover"
+                  width={400}
+                  height={400}
                 />
               </div>
             </div>
@@ -341,7 +344,7 @@ export default function Portfolio() {
                     <span className="text-teal-400 mr-2">▷</span>
                     <p className="text-gray-300 text-sm">
                       Led development of end-to-end region build automation
-                      across Route 53 (AWS's DNS web service). This enabled the
+                      across Route 53 (AWS&apos;s DNS web service). This enabled the
                       launch of customer-facing global services in new regions
                       within a day, a significant reduction from the previous
                       time-frame of a month.
@@ -350,7 +353,7 @@ export default function Portfolio() {
                   <li className="flex">
                     <span className="text-teal-400 mr-2">▷</span>
                     <p className="text-gray-300 text-sm">
-                      Re-built Route 53's core domain management and DNS systems
+                      Re-built Route 53&apos;s core domain management and DNS systems
                       to provide a better user experience to millions of
                       customers.
                     </p>
