@@ -197,10 +197,11 @@ export default function Portfolio() {
         </div>
 
         <p className="text-gray-300 max-w-2xl mb-12 leading-relaxed text-sm md:text-base">
-          I&apos;m a software engineer from Toronto, Canada. I&apos;m fascinated by
-          large-scale, high-impact products and contributed to major feature
-          launches in industry-leading services as well as apps that have 100M+
-          installs.
+          I&apos;m a software engineer from Kathmandu, Nepal. I work with the
+          MERN stack, Next.js, TypeScript, and PostgreSQL to build scalable,
+          full-stack web applications. I&apos;m also learning and working with
+          Docker, CI/CD, and Kubernetes to improve how things run in production.
+          Always curious, always building.
         </p>
 
         <Button
@@ -228,10 +229,10 @@ export default function Portfolio() {
               <p className="text-gray-300 leading-relaxed">
                 I am currently a Software Developer at{" "}
                 <span className="text-teal-400">Nakshtra Techno Hub</span>,
-                working in the AWS sector under team Route 53. At the same time,
+                {/* working in the AWS sector under team Route 53. At the same time,
                 I am undertaking a part-time Master&apos;s of Science in Software
-                Engineering at{" "}
-                <span className="text-teal-400">University of Oxford</span>.
+                Engineering at */}
+                {/* <span className="text-teal-400">University of Oxford</span>. */}
               </p>
 
               <div>
@@ -283,8 +284,8 @@ export default function Portfolio() {
               </div>
 
               <p className="text-gray-300 leading-relaxed">
-                Outside of work, I&apos;m interested in following the developments of
-                science. I also play a lot of video games. And make TikToks.
+                Outside of work, I&apos;m interested in following the
+                developments of science.
               </p>
             </div>
 
@@ -344,17 +345,17 @@ export default function Portfolio() {
                     <span className="text-teal-400 mr-2">▷</span>
                     <p className="text-gray-300 text-sm">
                       Led development of end-to-end region build automation
-                      across Route 53 (AWS&apos;s DNS web service). This enabled the
-                      launch of customer-facing global services in new regions
-                      within a day, a significant reduction from the previous
-                      time-frame of a month.
+                      across Route 53 (AWS&apos;s DNS web service). This enabled
+                      the launch of customer-facing global services in new
+                      regions within a day, a significant reduction from the
+                      previous time-frame of a month.
                     </p>
                   </li>
                   <li className="flex">
                     <span className="text-teal-400 mr-2">▷</span>
                     <p className="text-gray-300 text-sm">
-                      Re-built Route 53&apos;s core domain management and DNS systems
-                      to provide a better user experience to millions of
+                      Re-built Route 53&apos;s core domain management and DNS
+                      systems to provide a better user experience to millions of
                       customers.
                     </p>
                   </li>
