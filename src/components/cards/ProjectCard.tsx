@@ -56,7 +56,7 @@ const ProjectCard = ({
             {stack.map((tech: string, idx: number) => (
               <span
                 key={idx}
-                className="inline-flex items-center px-3 py-1 text-xs font-medium bg-gradient-to-r from-blue-600/80 to-blue-700/80 text-blue-100 rounded-full border border-blue-500/20 hover:from-blue-500/80 hover:to-blue-600/80 hover:border-blue-400/30 transition-all duration-200 hover:scale-105 cursor-default backdrop-blur-sm"
+                className="inline-flex items-center px-3 py-1 text-xs font-medium bg-gradient-to-r from-blue-600/80 to-blue-600/80 text-blue-100 rounded-full border border-blue-500/20 hover:from-blue-500/80 hover:to-blue-600/80 hover:border-blue-400/30 transition-all duration-200 hover:scale-105 cursor-default backdrop-blur-sm"
               >
                 {tech}
               </span>
