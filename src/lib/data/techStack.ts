@@ -1,0 +1,18 @@
+export const techStack: string[] = [
+  "JavaScript",
+  "Nodejs",
+  "TypeScript",
+  "Reactjs",
+  "Nextjs",
+  "Postgres",
+  "MongoDB",
+  "React Query",
+  "Tailwind",
+  "Git",
+  "Docker",
+  "Redis",
+  "CI/CD",
+  "web-RTC & Socket-io",
+  "Kubernets",
+  "Java",
+];
