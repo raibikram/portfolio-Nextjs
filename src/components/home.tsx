@@ -6,7 +6,7 @@ function Home() {
   return (
     <>
       {/* Tree Illustration */}
-      <div className="mb-12">
+      {/* <div className="mb-12">
         <svg
           width="120"
           height="200"
@@ -56,9 +56,9 @@ function Home() {
             <line x1="95" y1="40" x2="90" y2="35" />
           </g>
         </svg>
-      </div>
+      </div> */}
 
-      <div className="mb-6">
+      <div className="mb-6 my-40">
         <h1 className="text-4xl md:text-6xl font-light mb-4">
           Hi, <span className="text-teal-400">Bikram</span> here.
         </h1>

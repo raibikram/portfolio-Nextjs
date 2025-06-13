@@ -7,7 +7,7 @@ export default function Experience() {
   const [selectedIndex, setSelectedIndex] = useState(0);
 
   return (
-    <div className="max-w-4xl mx-auto">
+    <div className="max-w-5xl mx-auto ">
       <h2 className="text-3xl md:text-4xl font-light mb-12 text-left">
         {/* <span className="text-teal-400">/</span> */}
          Experience
@@ -15,7 +15,7 @@ export default function Experience() {
 
       <div className="hidden  sm:grid sm:grid-cols-5 gap-6">
         {/* Left column - Company names */}
-        <div className="md:col-span-1 space-y-2 md:space-y-4">
+        <div className="md:col-span-1 space-y-2 md:space-y-4 max-w-6xl">
           {experienceData.map((exp, index) => (
             <button
               key={index}
@@ -32,7 +32,7 @@ export default function Experience() {
         </div>
 
         {/* Right column - Experience details */}
-        <div className="md:col-span-4 border-l border-teal-400/30 pl-6">
+        <div className="sm:col-span-4 border-l border-teal-400/30 pl-6">
           <div className="h-auto">
             <div
               key={selectedIndex}

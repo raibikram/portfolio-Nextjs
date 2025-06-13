@@ -127,7 +127,7 @@ export default function Portfolio() {
         {/* Home Section */}
         <section
           id="home"
-          className="flex flex-col items-center justify-center px-6 text-center pt-20 max-w-5xl mx-auto w-full"
+          className="flex flex-col items-center justify-center px-6 text-center  max-w-5xl mx-auto w-full pb-10 "
         >
           <Home />
         </section>
