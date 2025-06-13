@@ -6,17 +6,19 @@ const About = () => {
   return (
     <div className="max-w-6xl mx-auto">
       <h2 className="text-3xl md:text-4xl font-light mb-12 text-left">
-        <span className="text-teal-400">/</span> about me
+        {/* <span className="text-teal-400">/</span>  */}
+        About Me
       </h2>
       <div className="grid md:grid-cols-3 gap-12 items-start">
         <div className="md:col-span-2 space-y-6">
           <p className="text-gray-300 leading-relaxed">
-            I am currently a Software Developer at{" "}
-            <span className="text-teal-400">Nakshtra Techno Hub</span>,
+            I am currently a Software Developer at  &nbsp;
+            <span className="text-teal-500 ">Nakshtra Techno Hub</span>, &nbsp;
             {/* working in the AWS sector under team Route 53. At the same time,
                 I am undertaking a part-time Master&apos;s of Science in Software
                 Engineering at */}
             {/* <span className="text-teal-400">University of Oxford</span>. */}
+            working on building scalable web applications and improving deployment processes.
           </p>
           <div>
             <p className="text-gray-400 mb-4">
@@ -33,8 +35,9 @@ const About = () => {
             </div>
           </div>
           <p className="text-gray-300 leading-relaxed">
-            Outside of work, I&apos;m interested in following the developments
-            of science.
+            {/* Outside of work, I&apos;m interested in following the developments
+            of science. */}
+           Outside of work, I enjoy exploring new ideas and experiences.
           </p>
         </div>
         <div className="flex justify-center">

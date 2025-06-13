@@ -60,19 +60,21 @@ function Home() {
 
       <div className="mb-6">
         <h1 className="text-4xl md:text-6xl font-light mb-4">
-          Hi, <span className="text-teal-400">Bikram</span> here.|
+          Hi, <span className="text-teal-400">Bikram</span> here.
         </h1>
         <h2 className="text-xl md:text-2xl text-gray-400 font-light">
-          I create stuff sometimes.
+          I craft solutions.
         </h2>
       </div>
 
       <p className="text-gray-300 max-w-2xl mb-12 leading-relaxed text-sm md:text-base">
-        I&apos;m a software engineer from Kathmandu, Nepal. I work with the MERN
+        {/* I&apos;m a software engineer from Kathmandu, Nepal. I work with the MERN
         stack, Next.js, TypeScript, and PostgreSQL to build scalable, full-stack
         web applications. I&apos;m also learning and working with Docker, CI/CD,
         and Kubernetes to improve how things run in production. Always curious,
-        always building.
+        always building. */}
+
+        I&apos;m a Software Developer from Kathmandu, Nepal. I work with the MERN stack, Next.js, TypeScript, and PostgreSQL to build scalable full-stack web applications. I&apos;m also learning and working with Docker, CI/CD, and Kubernetes to improve production workflows. Always curious, always building.
       </p>
 
       <Button

@@ -9,7 +9,8 @@ export default function Experience() {
   return (
     <div className="max-w-4xl mx-auto">
       <h2 className="text-3xl md:text-4xl font-light mb-12 text-left">
-        <span className="text-teal-400">/</span> experience
+        {/* <span className="text-teal-400">/</span> */}
+         Experience
       </h2>
 
       <div className="hidden  sm:grid sm:grid-cols-5 gap-6">
@@ -32,7 +33,7 @@ export default function Experience() {
 
         {/* Right column - Experience details */}
         <div className="md:col-span-4 border-l border-teal-400/30 pl-6">
-          <div className="min-h-[400px]">
+          <div className="h-auto">
             <div
               key={selectedIndex}
               className="animate-in fade-in duration-300"

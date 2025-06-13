@@ -9,6 +9,7 @@ export const experienceData: IExperienceData[] = [
       "Developed MVP from scratch using Nextjs, Nodejs",
       "Collaborated with design team to implement responsive UI/UX",
       "Built 10+ client websites using modern web technologies",
+      "Develop real-time features using WebRTC and Socket.io"
     ],
   },
   {
@@ -16,9 +17,10 @@ export const experienceData: IExperienceData[] = [
     role: "MERN Stack Developer",
     duration: "2024 - 2025",
     highlights: [
-      "Developed MVP from scratch using React, Express.js, and PostgreSQL",
-      "Built 10+ client websites using modern web technologies",
+      "Build scalable web applications using MERN stack and Next.js",
+      "Built 8+ client websites using modern web technologies",
       "Collaborated with design team to implement responsive UI/UX",
+      "Collaborated on REST API integration and state management"
     ],
   },
   // {
