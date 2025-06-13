@@ -127,7 +127,7 @@ export default function Portfolio() {
         {/* Home Section */}
         <section
           id="home"
-          className="min-h-screen flex flex-col items-center justify-center px-6 text-center pt-20 max-w-5xl mx-auto w-full"
+          className="flex flex-col items-center justify-center px-6 text-center pt-20 max-w-5xl mx-auto w-full"
         >
           <Home />
         </section>
@@ -135,15 +135,14 @@ export default function Portfolio() {
         {/* About Section */}
         <section
           id="about"
-          className="min-h-screen flex items-center justify-center px-6 py-20 max-w-5xl mx-auto w-full"
+          className="flex items-center justify-center px-6 py-20 max-w-5xl mx-auto w-full"
         >
           <About />
         </section>
-
         {/* Experience Section */}
         <section
           id="experience"
-          className="min-h-screen flex items-center  justify-center px-6 py-20 max-w-5xl mx-auto w-full"
+          className=" flex items-center  justify-center px-6 py-20 max-w-5xl mx-auto w-full"
         >
           <Experience />
         </section>
@@ -151,7 +150,7 @@ export default function Portfolio() {
         {/* Projects Section */}
         <section
           id="projects"
-          className="min-h-screen flex flex-col justify-center px-6 py-20 max-w-5xl mx-auto w-full"
+          className="flex flex-col justify-center px-6 py-20 max-w-5xl mx-auto w-full"
         >
           <Projects />
         </section>

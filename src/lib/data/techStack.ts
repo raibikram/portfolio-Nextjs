@@ -1,5 +1,5 @@
 export const techStack: string[] = [
-  "JavaScript",
+"JavaScript",
   "Nodejs",
   "TypeScript",
   "Reactjs",

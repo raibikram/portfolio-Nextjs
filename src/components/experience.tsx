@@ -12,7 +12,7 @@ export default function Experience() {
         <span className="text-teal-400">/</span> experience
       </h2>
 
-      <div className="grid md:grid-cols-5 gap-6">
+      <div className="hidden  sm:grid sm:grid-cols-5 gap-6">
         {/* Left column - Company names */}
         <div className="md:col-span-1 space-y-2 md:space-y-4">
           {experienceData.map((exp, index) => (
@@ -71,7 +71,7 @@ export default function Experience() {
       </div>
 
       {/* Mobile view - Stacked layout */}
-      <div className="md:hidden mt-8">
+      <div className="sm:hidden mt-8">
         <div className="space-y-6">
           {experienceData.map((exp, index) => (
             <div
