@@ -13,7 +13,7 @@ const About = () => {
         <div className="md:col-span-2 space-y-6">
           <p className="text-gray-300 leading-relaxed">
             I am currently a Software Developer at  &nbsp;
-            <span className="text-teal-500 ">Nakshtra Techno Hub</span>, &nbsp;
+            <span className="text-teal-500 ">Nakshatra Techno Hub</span>, &nbsp;
             {/* working in the AWS sector under team Route 53. At the same time,
                 I am undertaking a part-time Master&apos;s of Science in Software
                 Engineering at */}
