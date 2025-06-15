@@ -1,6 +1,7 @@
 export const techStack: string[] = [
   "JavaScript / TypeScript",
   "Node.js / Express",
+  "Reacjs/Nextjs",
   "PostgreSQL / MongoDB",
   "React Query",
   "Tailwind CSS",
