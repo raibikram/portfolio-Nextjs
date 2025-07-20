@@ -98,25 +98,36 @@ export default function Portfolio() {
           <div className="flex items-center space-x-4">
             <Link
               href="mailto:raibikraminfo@gmail.com"
+               target="_blank"
               className="hover:text-teal-400 transition-colors"
+              aria-label="Send email"
             >
               <Mail className="w-5 h-5" />
             </Link>
             <Link
               href="https://github.com/raibikram"
+              target="_blank"
+              rel="noopener noreferrer"
               className="hover:text-teal-400 transition-colors"
+              aria-label="GitHub"
             >
               <Github className="w-5 h-5" />
             </Link>
             <Link
               href="https://www.linkedin.com/in/raibikraminfo"
+              target="_blank"
+              rel="noopener noreferrer"
               className="hover:text-teal-400 transition-colors"
+              aria-label="LinkedIn"
             >
               <Linkedin className="w-5 h-5" />
             </Link>
             <Link
               href="https://blogsbikram.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
               className="hover:text-teal-400 transition-colors"
+              aria-label="Personal Blog"
             >
               <PenTool className="w-5 h-5" />
             </Link>
