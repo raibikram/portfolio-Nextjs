@@ -44,7 +44,10 @@ const ProjectCard = ({
             </div>
           </div>
 
-          <h3 className="text-xl font-semibold mb-3 text-white group-hover:text-teal-100 transition-colors duration-300 leading-tight">
+          {/* <h3 className="text-md font-semibold mb-3 text-white group-hover:text-teal-100 transition-colors duration-300 leading-tight">
+            {title}
+          </h3> */}
+          <h3 className="text-md font-semibold mb-2 text-white group-hover:text-teal-200 transition-colors duration-300 leading-snug tracking-tight font-lexend">
             {title}
           </h3>
 

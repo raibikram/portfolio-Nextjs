@@ -19,40 +19,61 @@ export const projectData: IProjectData[] = [
     githubRepo: "https://github.com/ItsBikramRai/Kinmel",
   },
   {
-    title: "Weather Widget",
+    title:
+      "Prashant Traders - Wholesale Distribution Platform for Daily Essentials",
+
     description:
-      "A system that establishes an ORM connection to a Prisma client in order to communicate logs from microservices.",
-    stack: ["Node.js (Express.js)", "React.js", "PostgreSQL"],
-    githubRepo: "https://github.com/ItsBikramRai/weather-widget",
-    website: "https://weather-widget-zeta-steel.vercel.app",
+      "I contributed to the development of a platform for a trusted wholesale supplier, serving businesses nationwide since 2003. My role involved front-end development and integrating a product catalog, ensuring a seamless, responsive experience for users. This project highlights my ability to work with cross-functional teams and deliver high-quality solutions.",
+    stack: ["nextjs", "Tailwind","mongodb", "nodejs"],
+     website: "https://www.prashanttraders.com",
+    // github: "https://github.com/ItsBikramRai/Kinmel",
+  },
+  {
+    title: "Gagan Sanitary - Sanitary Services with Japanese Technology",
+
+    description:
+      "I worked on the development of Gagan Sanitary's platform, which provides top-quality sanitary services using modern Japanese technology. The goal was to create a seamless online experience for customers seeking septic tank cleaning, kitchen pipe unblocking, and new installations.",
+    stack: ["nextjs", "Tailwind","nodejs", "Postgres"],
+     website: "https://gagan-sanitary.vercel.app",
+  },
+  // {
+  //   title: "Weather Widget",
+  //   description:
+  //     "A system that establishes an ORM connection to a Prisma client in order to communicate logs from microservices.",
+  //   stack: ["Node.js (Express.js)", "React.js", "PostgreSQL"],
+  //   githubRepo: "https://github.com/ItsBikramRai/weather-widget",
+  //   website: "https://weather-widget-zeta-steel.vercel.app",
+  // },
+    {
+    title: "iGuide - Nepal Tourism Guide Booking Platform",
+    description:
+      "iGuide is a comprehensive platform connecting tourists with verified local guides in Nepal. The platform facilitates easy discovery of destinations, guide booking, and secure payments while ensuring quality service through strict verification processes.",
+    stack: ["javascript", "React", "Shadcn", "Tailwind", "Gemini"],
+    githubRepo: "https://github.com/raibikram/IGuide",
+    website: "",
   },
   {
     title: "AuthPlus: Google and Email-Based Authentication",
     description:
       "AuthPlus is a robust authentication platform designed to manage user login, signup, password reset, and email verification. This platform supports both **Google OAuth** and **manual authentication** methods, giving users the flexibility to log in using their Google account or with their email and password. With seamless integration of **Passport.js**, users can securely sign up, verify their email, and reset forgotten passwords with ease. Whether it's for a web application or service, AuthPlus provides a reliable, secure, and customizable authentication solution.",
-    stack: [ "Node.js",
+    stack: [
+      "Node.js",
       "Express",
       "MongoDB",
       "Passport.js",
       "Tailwind",
-      "OAuth 2.0",],
+      "OAuth 2.0",
+    ],
     githubRepo: "https://github.com/ItsBikramRai/googleAuth",
     website: "",
   },
-  {
-    title: "iGuide - Nepal Tourism Guide Booking Platform",
-    description:
-      "iGuide is a comprehensive platform connecting tourists with verified local guides in Nepal. The platform facilitates easy discovery of destinations, guide booking, and secure payments while ensuring quality service through strict verification processes.",
-    stack: ["javascript","React","Shadcn", "Tailwind","Gemini"],
-    githubRepo: "https://github.com/raibikram/IGuide",
-    website: "",
-  },
-  {
-    title: "Nodejs Testing",
-    description:
-      "Testing is the process of checking software to ensure it works correctly, meets requirements, and is free of bugs.",
-    stack: ["Nodejs"],
-    githubRepo: "https://github.com/raibikram/nodejs-testing",
-    website: "",
-  },
+
+  // {
+  //   title: "Nodejs Testing",
+  //   description:
+  //     "Testing is the process of checking software to ensure it works correctly, meets requirements, and is free of bugs.",
+  //   stack: ["Nodejs"],
+  //   githubRepo: "https://github.com/raibikram/nodejs-testing",
+  //   website: "",
+  // },
 ];
