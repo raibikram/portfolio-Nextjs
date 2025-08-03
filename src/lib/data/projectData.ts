@@ -9,14 +9,20 @@ export const projectData: IProjectData[] = [
     website: "https://aihealthassistant.vercel.app",
     githubRepo: "https://github.com/ItsBikramRai/AI_Health_Assistant",
   },
-  {
-    title: "Kinmel Website",
-    description:
-      "Kinmel is an e-commerce website built for the Nepal market. It allows users to browse products, filter by category and price, and add items to their cart. This project was developed as part of a portfolio to demonstrate full-stack development skills, focusing on a seamless shopping experience.",
-    stack: ["HTML", "CSS", "React", "Node.js", "MongoDB", "Bootstrap"],
+  // {
+  //   title: "Kinmel Website",
+  //   description:
+  //     "Kinmel is an e-commerce website built for the Nepal market. It allows users to browse products, filter by category and price, and add items to their cart. This project was developed as part of a portfolio to demonstrate full-stack development skills, focusing on a seamless shopping experience.",
+  //   stack: ["HTML", "CSS", "React", "Node.js", "MongoDB", "Bootstrap"],
 
-    website: "https://kinmel.onrender.com",
-    githubRepo: "https://github.com/ItsBikramRai/Kinmel",
+  //   website: "https://kinmel.onrender.com",
+  //   githubRepo: "https://github.com/ItsBikramRai/Kinmel",
+  // },
+  {
+title:"Bishwasniya Group",
+description:"Bishwasniya Group is a dynamic and forward-thinking startup dedicated to delivering expert financial and tax-related support to businesses across Nepal. With a mission to empower organizations through strategic financial solutions, we are committed to being a reliable partner for businesses of all sizes.",
+stack:["nextjs", "nodejs", "tailwind"],
+website:"https://bishwasniyagroup.com",
   },
   {
     title:
