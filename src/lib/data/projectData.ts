@@ -40,7 +40,7 @@ website:"https://bishwasniyagroup.com",
     description:
       "I worked on the development of Gagan Sanitary's platform, which provides top-quality sanitary services using modern Japanese technology. The goal was to create a seamless online experience for customers seeking septic tank cleaning, kitchen pipe unblocking, and new installations.",
     stack: ["nextjs", "Tailwind","nodejs", "Postgres"],
-     website: "https://gagan-sanitary.vercel.app",
+     website: "www.gagansanitary.com.np",
   },
   // {
   //   title: "Weather Widget",
