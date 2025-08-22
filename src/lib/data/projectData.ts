@@ -9,20 +9,21 @@ export const projectData: IProjectData[] = [
     website: "https://aihealthassistant.vercel.app",
     githubRepo: "https://github.com/ItsBikramRai/AI_Health_Assistant",
   },
-  // {
-  //   title: "Kinmel Website",
-  //   description:
-  //     "Kinmel is an e-commerce website built for the Nepal market. It allows users to browse products, filter by category and price, and add items to their cart. This project was developed as part of a portfolio to demonstrate full-stack development skills, focusing on a seamless shopping experience.",
-  //   stack: ["HTML", "CSS", "React", "Node.js", "MongoDB", "Bootstrap"],
-
-  //   website: "https://kinmel.onrender.com",
-  //   githubRepo: "https://github.com/ItsBikramRai/Kinmel",
-  // },
   {
-title:"Bishwasniya Group",
-description:"Bishwasniya Group is a dynamic and forward-thinking startup dedicated to delivering expert financial and tax-related support to businesses across Nepal. With a mission to empower organizations through strategic financial solutions, we are committed to being a reliable partner for businesses of all sizes.",
-stack:["nextjs", "nodejs", "tailwind"],
-website:"https://bishwasniyagroup.com",
+    title: "Kinmel Website",
+    description:
+      "Kinmel is an e-commerce website built for the Nepal market. It allows users to browse products, filter by category and price, and add items to their cart. This project was developed as part of a portfolio to demonstrate full-stack development skills, focusing on a seamless shopping experience.",
+    stack: ["HTML", "CSS", "React", "Node.js", "MongoDB", "Bootstrap"],
+
+    website: "https://kinmel.onrender.com",
+    githubRepo: "https://github.com/ItsBikramRai/Kinmel",
+  },
+  {
+    title: "Bishwasniya Group",
+    description:
+      "Bishwasniya Group is a dynamic and forward-thinking startup dedicated to delivering expert financial and tax-related support to businesses across Nepal. With a mission to empower organizations through strategic financial solutions, we are committed to being a reliable partner for businesses of all sizes.",
+    stack: ["nextjs", "nodejs", "tailwind"],
+    website: "https://bishwasniyagroup.com",
   },
   {
     title:
@@ -30,8 +31,8 @@ website:"https://bishwasniyagroup.com",
 
     description:
       "I contributed to the development of a platform for a trusted wholesale supplier, serving businesses nationwide since 2003. My role involved front-end development and integrating a product catalog, ensuring a seamless, responsive experience for users. This project highlights my ability to work with cross-functional teams and deliver high-quality solutions.",
-    stack: ["nextjs", "Tailwind","mongodb", "nodejs"],
-     website: "https://www.prashanttraders.com",
+    stack: ["nextjs", "Tailwind", "mongodb", "nodejs"],
+    website: "https://www.prashanttraders.com",
     // github: "https://github.com/ItsBikramRai/Kinmel",
   },
   {
@@ -39,8 +40,8 @@ website:"https://bishwasniyagroup.com",
 
     description:
       "I worked on the development of Gagan Sanitary's platform, which provides top-quality sanitary services using modern Japanese technology. The goal was to create a seamless online experience for customers seeking septic tank cleaning, kitchen pipe unblocking, and new installations.",
-    stack: ["nextjs", "Tailwind","nodejs", "Postgres"],
-     website: "https://www.gagansanitary.com.np",
+    stack: ["nextjs", "Tailwind", "nodejs", "Postgres"],
+    website: "https://www.gagansanitary.com.np",
   },
   // {
   //   title: "Weather Widget",
@@ -50,7 +51,7 @@ website:"https://bishwasniyagroup.com",
   //   githubRepo: "https://github.com/ItsBikramRai/weather-widget",
   //   website: "https://weather-widget-zeta-steel.vercel.app",
   // },
-    {
+  {
     title: "iGuide - Nepal Tourism Guide Booking Platform",
     description:
       "iGuide is a comprehensive platform connecting tourists with verified local guides in Nepal. The platform facilitates easy discovery of destinations, guide booking, and secure payments while ensuring quality service through strict verification processes.",
