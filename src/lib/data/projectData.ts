@@ -19,10 +19,11 @@ export const projectData: IProjectData[] = [
   //   githubRepo: "https://github.com/ItsBikramRai/Kinmel",
   // },
   {
-title:"Bishwasniya Group",
-description:"Bishwasniya Group is a dynamic and forward-thinking startup dedicated to delivering expert financial and tax-related support to businesses across Nepal. With a mission to empower organizations through strategic financial solutions, we are committed to being a reliable partner for businesses of all sizes.",
-stack:["nextjs", "nodejs", "tailwind"],
-website:"https://bishwasniyagroup.com",
+    title: "Bishwasniya Group",
+    description:
+      "Bishwasniya Group is a dynamic and forward-thinking startup dedicated to delivering expert financial and tax-related support to businesses across Nepal. With a mission to empower organizations through strategic financial solutions, we are committed to being a reliable partner for businesses of all sizes.",
+    stack: ["nextjs", "nodejs", "tailwind"],
+    website: "https://bishwasniyagroup.com",
   },
   {
     title:
@@ -30,8 +31,8 @@ website:"https://bishwasniyagroup.com",
 
     description:
       "I contributed to the development of a platform for a trusted wholesale supplier, serving businesses nationwide since 2003. My role involved front-end development and integrating a product catalog, ensuring a seamless, responsive experience for users. This project highlights my ability to work with cross-functional teams and deliver high-quality solutions.",
-    stack: ["nextjs", "Tailwind","mongodb", "nodejs"],
-     website: "https://www.prashanttraders.com",
+    stack: ["nextjs", "Tailwind", "mongodb", "nodejs"],
+    website: "https://www.prashanttraders.com",
     // github: "https://github.com/ItsBikramRai/Kinmel",
   },
   {
@@ -39,8 +40,8 @@ website:"https://bishwasniyagroup.com",
 
     description:
       "I worked on the development of Gagan Sanitary's platform, which provides top-quality sanitary services using modern Japanese technology. The goal was to create a seamless online experience for customers seeking septic tank cleaning, kitchen pipe unblocking, and new installations.",
-    stack: ["nextjs", "Tailwind","nodejs", "Postgres"],
-     website: "https://www.gagansanitary.com.np",
+    stack: ["nextjs", "Tailwind", "nodejs", "Postgres"],
+    website: "https://www.gagansanitary.com.np",
   },
   // {
   //   title: "Weather Widget",
@@ -50,7 +51,7 @@ website:"https://bishwasniyagroup.com",
   //   githubRepo: "https://github.com/ItsBikramRai/weather-widget",
   //   website: "https://weather-widget-zeta-steel.vercel.app",
   // },
-    {
+  {
     title: "iGuide - Nepal Tourism Guide Booking Platform",
     description:
       "iGuide is a comprehensive platform connecting tourists with verified local guides in Nepal. The platform facilitates easy discovery of destinations, guide booking, and secure payments while ensuring quality service through strict verification processes.",
@@ -59,19 +60,12 @@ website:"https://bishwasniyagroup.com",
     website: "",
   },
   {
-    title: "AuthPlus: Google and Email-Based Authentication",
+    title: "AuthPlus – Supabase Authentication with Google & GitHub",
     description:
-      "AuthPlus is a robust authentication platform designed to manage user login, signup, password reset, and email verification. This platform supports both **Google OAuth** and **manual authentication** methods, giving users the flexibility to log in using their Google account or with their email and password. With seamless integration of **Passport.js**, users can securely sign up, verify their email, and reset forgotten passwords with ease. Whether it's for a web application or service, AuthPlus provides a reliable, secure, and customizable authentication solution.",
-    stack: [
-      "Node.js",
-      "Express",
-      "MongoDB",
-      "Passport.js",
-      "Tailwind",
-      "OAuth 2.0",
-    ],
-    githubRepo: "https://github.com/ItsBikramRai/googleAuth",
-    website: "",
+      "AuthPlus is a secure authentication solution powered by Supabase, supporting both email/password login and OAuth providers (Google & GitHub). It offers features like signup, email verification, password reset, and seamless social logins, making it a reliable and customizable choice for modern web applications.",
+    stack: ["Nextjs", "Supabase", "shadcn", "Tailwind"],
+    githubRepo: "https://github.com/raibikram/supabase-auth-nextjs",
+    website: "https://supabase-auth.vercel.app",
   },
 
   // {
