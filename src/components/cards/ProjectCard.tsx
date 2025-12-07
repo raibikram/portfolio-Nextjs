@@ -10,10 +10,10 @@ const ProjectCard = ({
   website,
 }: IProjectData) => {
   return (
-    <Card className="group relative flex flex-col justify-between h-full bg-gradient-to-br from-slate-800 to-slate-900 border border-slate-700/50 hover:border-teal-400/50 transition-all duration-300 hover:shadow-xl hover:shadow-teal-400/10 hover:-translate-y-1 backdrop-blur-sm">
+    <Card className="group relative flex flex-col justify-between h-full bg-linear-to-br from-slate-800 to-slate-900 border border-slate-700/50 hover:border-teal-400/50 transition-all duration-300 hover:shadow-xl hover:shadow-teal-400/10 hover:-translate-y-1 backdrop-blur-sm">
       <CardContent className="p-6 relative z-10 flex flex-col h-full">
         {/* Gradient overlay background */}
-        <div className="absolute inset-0 bg-gradient-to-br from-teal-400/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-0" />
+        <div className="absolute inset-0 bg-linear-to-br from-teal-400/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-0" />
 
         {/* Top Section: Folder + Links */}
         <div className="flex items-center justify-between mb-4 relative z-10">
@@ -45,7 +45,7 @@ const ProjectCard = ({
         </div>
 
         {/* Title + Description */}
-        <div className="flex-grow relative z-10">
+        <div className="grow relative z-10">
           <h3 className="text-lg font-semibold mb-2 text-white group-hover:text-teal-200 transition-colors duration-300 leading-snug tracking-tight font-lexend">
             {title}
           </h3>
@@ -59,7 +59,7 @@ const ProjectCard = ({
           {stack.map((tech: string, idx: number) => (
             <span
               key={idx}
-              className="inline-flex items-center px-3 py-1 text-xs font-medium bg-gradient-to-r from-blue-600/80 to-blue-600/80 text-blue-100 rounded-full border border-blue-500/20 hover:from-blue-500/80 hover:to-blue-600/80 hover:border-blue-400/30 transition-all duration-200 hover:scale-105 cursor-default backdrop-blur-sm"
+              className="inline-flex items-center px-3 py-1 text-xs font-medium bg-linear-to-r from-blue-600/80 to-blue-600/80 text-blue-100 rounded-full border border-blue-500/20 hover:from-blue-500/80 hover:to-blue-600/80 hover:border-blue-400/30 transition-all duration-200 hover:scale-105 cursor-default backdrop-blur-sm"
             >
               {tech}
             </span>
@@ -67,7 +67,7 @@ const ProjectCard = ({
         </div>
 
         {/* Corner Accent */}
-        <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-bl from-teal-400/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-0" />
+        <div className="absolute top-0 right-0 w-20 h-20 bg-linear-to-bl from-teal-400/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-0" />
       </CardContent>
     </Card>
   );
